@@ -1,0 +1,13 @@
+Command: man
+
+Usage:
+  man <command>
+
+Description:
+  Displays the manual for a specific command.
+
+Parameters:
+  - <command>: The name of the command you want to view the manual for.
+
+Example:
+  man create_datacenter

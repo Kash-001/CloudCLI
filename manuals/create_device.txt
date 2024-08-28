@@ -1,0 +1,18 @@
+Command: create_device
+
+Usage:
+  create_device <size_in_u> <name> <device_type> <bay_position> <room_name> <datacenter_name>
+
+Description:
+  Creates a new device in a specified bay within a room of a datacenter.
+
+Parameters:
+  - <size_in_u>: The size of the device in U (rack units).
+  - <name>: The name of the device.
+  - <device_type>: The type of device (e.g., switch, firewall, etc.).
+  - <bay_position>: The position in the bay (index starting from 0).
+  - <room_name>: The name of the room where the bay is located.
+  - <datacenter_name>: The name of the datacenter where the room is located.
+
+Example:
+  create_device 1 "eq-pega-sw-1" "switch" 0 "Pegasus-Room" "Equinix-10"

@@ -1,0 +1,10 @@
+Command: help
+
+Usage:
+  help
+
+Description:
+  Displays a list of available commands.
+
+Example:
+  help

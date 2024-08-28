@@ -1,0 +1,15 @@
+Command: create_bay
+
+Usage:
+  create_bay <size_in_u> <room_name> <datacenter_name>
+
+Description:
+  Creates a new bay in a specified room within a datacenter.
+
+Parameters:
+  - <size_in_u>: The size of the bay in U (rack units).
+  - <room_name>: The name of the room where the bay will be created.
+  - <datacenter_name>: The name of the datacenter where the room is located.
+
+Example:
+  create_bay 42 "Pegasus-Room" "Equinix-10"

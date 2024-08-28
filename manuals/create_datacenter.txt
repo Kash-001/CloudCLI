@@ -1,0 +1,15 @@
+Command: create_datacenter
+
+Usage:
+  create_datacenter <name> <location> <number_of_rooms>
+
+Description:
+  Creates a new datacenter with the specified name, location, and number of rooms.
+
+Parameters:
+  - <name>: The name of the datacenter.
+  - <location>: The geographical location of the datacenter.
+  - <number_of_rooms>: The number of rooms the datacenter will contain.
+
+Example:
+  create_datacenter "Equinix-10" "New York" 5
