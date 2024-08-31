@@ -1,0 +1,25 @@
+Command: use
+
+Usage:
+  use <component_name>
+  use ..
+
+Description:
+  Navigates into a specific component within the architecture, allowing you to work within that context. The command supports entering a datacenter, room, or bay.
+
+Parameters:
+  - <component_name>: The name of the datacenter, room, or bay to enter.
+  - .. : Moves up one level in the current path.
+
+Examples:
+  1. Enter a datacenter named "datacenter1":
+     use datacenter1
+
+  2. Move up one level from the current path:
+     use ..
+
+Output:
+  - The prompt changes to reflect the current context, showing the path you are in.
+
+Note:
+  The `use` command simplifies navigation within your architecture, allowing you to create and manage components more efficiently.

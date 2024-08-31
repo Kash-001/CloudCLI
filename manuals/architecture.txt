@@ -1,0 +1,26 @@
+Command: architecture (alias: arch)
+
+Usage:
+  architecture <component_type> <component_name>
+  arch <component_type> <component_name>
+
+Description:
+  Displays the hierarchical structure of a specified component within the architecture. The component can be a datacenter or a device.
+
+Parameters:
+  - <component_type>: The type of component you want to inspect. Supported values are "datacenter" and "device".
+  - <component_name>: The name of the specific component you want to visualize.
+
+Examples:
+  1. View the structure of a datacenter named "Equinix-10":
+     arch datacenter Equinix-10
+
+  2. Locate a specific device named "Switch1" within the entire architecture:
+     arch device Switch1
+
+Output:
+  - For a datacenter, the command outputs a tree structure showing all rooms and devices within the datacenter.
+  - For a device, the command shows the datacenter and room in which the device is located.
+
+Note:
+  The `arch` command helps you quickly visualize the layout of your datacenter or find specific devices within your network.
